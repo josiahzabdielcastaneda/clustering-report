@@ -1,6 +1,8 @@
 import pickle
 import streamlit as st
 import numpy as np
+import pandas as pd
+from sklearn.cluster import KMeans
 
 model = pickle.load(open('kmeans_model.pkl', 'rb'))
 
